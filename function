@@ -1,0 +1,14 @@
+let arr = ["0", "1", "2"];
+function AlertsArr() { let viewArr = prompt("Введите индекс елемента, который хотите вывести")
+alert(arr[viewArr])
+}
+function AddElement() { 
+arr.push = prompt("Введите значения, которые хотите добавить в массив");
+alert(arr); }
+function DeleteElement() { let deletenumber = prompt("Введите какой елемент массива вы хотите удалить") 
+delete arr[deletenumber];
+alert(arr); }
+let arr = ["0", "1", "2"];
+function AlertsArr() { let viewArr = prompt("Введите индекс елемента, который хотите вывести")
+alert(arr[viewArr])
+}
